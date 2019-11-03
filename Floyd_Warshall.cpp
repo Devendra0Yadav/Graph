@@ -25,10 +25,10 @@ int main()
 	    
 	     for(long long  i=1;i<v+1;i++){
 	        for(long long  j=1;j<v+1;j++){
-	            if(arr[i][j]!=10000000){
-	                cout<<arr[i][j]<<" ";
+	            if(arr[i][j]==10000000){
+	                cout<<"INF"<<" ";
 	            }
-	            else cout<<"INF"<<" ";
+	            else cout<<arr[i][j]<<" ";
 	        }
 	        cout<<endl;
 	    }
