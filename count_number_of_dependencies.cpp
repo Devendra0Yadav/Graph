@@ -15,7 +15,7 @@ class Graph{
                 
             }
         }
-        cout<<count/2<<endl;
+        cout<<count<<endl;
     }
     
 };
@@ -33,7 +33,7 @@ int main()
 	        cin>>arr[i];
 	    }
 	    Graph g;
-	    for(int i=0;i<l;i++){
+	    for(int i=0;i<l;i=i+2){
 	        g.addEdge(arr[i],arr[i+1]);
 	        
 	    }
